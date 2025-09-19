@@ -10,8 +10,8 @@ Numero_2 = int(input("Introduzca otro numero:"))
 
 # Proceso
 if Numero_2 != 0 and Numero_1 % Numero_2 == 0: 
-    print(str(Numero_1) + " es multiplo de " + str(Numero_2))
+    print(str(Numero_1) + " es multiplo de " + str (Numero_2))
 elif Numero_1 != 0 and Numero_2 % Numero_1 == 0:
-    print(str(Numero_2) + " es multiplo de " + str(Numero_1))
+    print(str(Numero_2) + " es multiplo de " + str (Numero_1))
 else:
     print("no son multiplos")
